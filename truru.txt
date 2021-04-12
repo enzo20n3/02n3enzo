@@ -1,0 +1,33 @@
+1.17(A)
+   Console.WriteLine("Чел плиз напиши число");
+            Console.WriteLine("Введите число x");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите чило x");
+            double x2 = Convert.ToDouble(Console.ReadLine());
+            double x3 = Math.Sqrt(Math.Pow(x, 2)) + (Math.Pow(x2, 2));
+            Console.WriteLine("Ваш ответ:" + x3);
+            Console.ReadKey();
+1.17(Б)
+     Console.WriteLine("Пиши число сударь");
+            Console.WriteLine("Введите число x1");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите число x2"):
+            double x2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите число x3");
+            double x3 = Convert.ToDouble(Console.ReadLine());
+            double x4 = x + x2 * x x + x3 * x2 + x3;
+            Console.WriteLine("Ваш ответ:" + x4);
+            Console.ReadKey();
+1.17(В)
+ Console.WriteLine("Пешите ваши числа сэр");
+            Console.WriteLine("Введите число v");
+            double v = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите число t");
+            double t = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите число t2");
+            double t2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите число a");
+            double a = Convert.ToDouble(Console.ReadLine());
+            double j +v * t + (a * Math.Pow(t2, 2) / 2);
+            Console.WriteLine("Ваш ответ:" + j);
+            Console.ReadKey();
