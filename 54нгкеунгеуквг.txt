@@ -1,4 +1,4 @@
-Convert.ToInt32() - (преобразует к типу ШТЕ)
+Convert.ToInt32() - (преобразует к типу int)
 Convert.ToDouble() - (преобразует к типу double)
 Convert.ToDecimal() - (преобразует к типу decimal)
 
