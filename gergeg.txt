@@ -1,0 +1,65 @@
+1) 
+int s = 0;
+for (int i = i; i <= 10; i++)
+{
+    Console.WriteLine("Введите число a");
+    int a = Convert.ToInt32(Console.ReadLine());
+    s = s + a;
+}
+Console.WriteLine("s=" + s);
+Console.ReadKey();
+
+2)            
+Console.WriteLine("Введите число n");
+int n = Convert.ToInt32(Console.ReadLine());
+int s = 0;
+for (int i = 1; i <= n; i++)
+{
+    Console.WriteLine("Введите число a" + i);
+    int a = Convert.ToInt32(Console.ReadLine());
+    s = s + a;
+}
+double sr = (1.0 * s) / n;
+Console.WriteLine("sr=" + sr);
+Console.ReadKey();
+
+3)
+Console.WriteLine("Введите число k");
+int k = Convert.ToInt32(Console.ReadLine());
+int a1 = 1;
+int a2 = 1;
+
+for (int i=3; i<=k; i++)
+{
+    int a = a1 + a2;
+    a1 = a2;
+    a2 = a;
+}
+Console.WriteLine("Элемент №" + k + " равен " + a2);
+Console.ReadKey();
+
+4)
+Console.WriteLine("Введите число k");
+int k = Convert.ToInt32(Console.ReadLine());
+int a1 = 1;
+int a2 = 1;
+Console.WriteLine("Введите a1" + a1);
+Console.WriteLine("Введите a2" + a2);
+for (int i = 3; i <= k; i++)
+{
+    int a = a1 + a2;
+    a1 = a2;
+    a2 = a;
+Console.WriteLine("Элемент равен" + i + " равен " + a2");
+}
+Console.ReadKey();
+
+5)
+Console.WriteLine("Введите a");
+int a = 1;
+for (int i = 3; i <= 24; i= i + 3)
+{
+    a = a * 2;
+}
+Console.WriteLine(a);
+Console.ReadKey();
