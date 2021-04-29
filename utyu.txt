@@ -1,0 +1,71 @@
+            Console.WriteLine("¬веди чсло клоун");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int s
+            while (a != 0)
+            {
+                s = s + a;
+                Console.WriteLine("¬ведите число клуон");
+                a = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine(s);
+            Console.ReadKey();
+
+            int n = 0; 
+            int s = 0;
+            Console.WriteLine("¬ведите число клоун");
+            int a = 0;
+            a = Convert.ToInt32(Console.ReadLine());
+            while (a > 0)
+            {
+                s = s + a;
+                n = n + 1;
+                Console.WriteLine("¬ведите число клоун");
+                a = Convert.ToInt32(Console.ReadLine());
+            }
+            double Sr = 1.0 * s / n;
+            Console.WriteLine(s);
+            Console.ReadKey();
+
+            Console.WriteLine("¬ведите число клоун");
+            int a = Convert.ToInt32(Console.Read());
+            int n = 0;
+            while (a != 0)
+            {
+                int a1 = a % 10;
+                a = a / 10;
+                if (a1 == 3)
+                {
+                    n = n + 1;
+                }
+                Console.WriteLine(n);
+                Console.ReadKey();
+            }
+
+            Console.WriteLine("¬ведите число клоун");
+            int a = Convert.ToInt32(Console.Read());
+            int n = 0;
+            while (a != 0)
+            {
+                int a1 = a % 10;
+                a = a / 10;
+                if (a1 == 3)
+                {
+                    n = n + 1;
+                }
+                Console.WriteLine(n);
+                Console.ReadKey();
+
+            int max = 0;
+            Console.WriteLine("¬ведите чсло клоун");
+            int a = Convert.ToInt32(Console.ReadLine());
+            while (a != 0)
+            {
+                int a1 = a % 10;
+                a = a / 10;
+                if (max < a1)
+                {
+                    max = a1;
+                }
+            }
+            Console.WriteLine(max);
+            Console.ReadKey();
