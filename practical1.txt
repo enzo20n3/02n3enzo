@@ -1,0 +1,17 @@
+            Console.WriteLine("¬ведите число p1");
+            int p1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("¬ведите число a");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("¬ведите число b");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("¬ведите число c");
+            int c = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("¬ведите число p2");
+            int p2 = Convert.ToInt32(Console.ReadLine());
+            int a1 = p1 - p2;
+            int c1 = a + b;
+            int d = c + c1;
+            Console.WriteLine(c1);
+            Console.WriteLine(d);
+            Console.WriteLine(a1);
+            Console.ReadKey();
