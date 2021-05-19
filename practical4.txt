@@ -1,0 +1,31 @@
+            Console.WriteLine("Введите день недели:");
+
+            int x = int.Parse(Console.ReadLine());
+            switch (x)
+            {
+                case 1:
+                    Console.WriteLine("У нас сегодня 4 пар");
+                    break;
+                case 2:
+                    Console.WriteLine("У нас сегодня 5 пар");
+                    break;
+                case 3:
+                    Console.WriteLine("У нас сегодня 6  пар");
+                    break;
+                case 4:
+                    Console.WriteLine("У нас сегодня 7 пар");
+                    break;
+                case 5:
+                    Console.WriteLine("У нас сегодня 1 пара");
+                    break;
+                case 6:
+                    Console.WriteLine("У нас сегодня нет пар");
+                    break;
+                case 7:
+                    Console.WriteLine("У нас сегодня нет пар");
+                    break;
+                default:
+                    Console.WriteLine("Нет такого дня!");
+                    break;
+            }
+            Console.ReadKey();
